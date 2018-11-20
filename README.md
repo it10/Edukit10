@@ -1,4 +1,4 @@
-# Edukit10#
+# Edukit10
 **Edukit10** es una **Plataforma Educativa** desarrollada para facilitar la enseñanza de programación y robótica 
 
 ## Mas información
