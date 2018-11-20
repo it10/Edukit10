@@ -15,3 +15,5 @@ Para trabajar con la edukit recomendamos Ardublock, podes encontrar la versión 
 
 ## Contacto
 - Podés contactarnos a traves de **contacto@it10coop.com.ar**
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+![Edukit10](/Imagenes/IMG_6147.JPG?raw=true "Edukit10")
