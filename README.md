@@ -2,7 +2,7 @@
 **Edukit10** es una **Plataforma Educativa** desarrollada para facilitar la enseñanza de programación y robótica 
 
 ## Mas información
-- Si querés saber más podés ingresar a[Sitio Edukit10](https://edukit.it10coop.com.ar/).
+- Si querés saber más podés ingresar a la [Web Edukit10](https://edukit.it10coop.com.ar/).
 Donde podés encotrar documentación, ejemplos de uso y también podés adquirir el producto
 
 ## Desarrollo
