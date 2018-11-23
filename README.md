@@ -2,15 +2,15 @@
 
 **Edukit10** es una **Plataforma Educativa** que permite abordar de una manera sencilla los fundamentos de programación y robótica 
 Es Arduino compatible, directamente en la placa podes encontrar:
-Led verde
-Led Amarillo
-Led Rojo
-3 botones switch
-Sensor de temperatura LM35
-Sensor de luz LDR
-2 Conectores para servos
-Buzzer
-Conector para baterías
+* Led verde
+* Led Amarillo
+* Led Rojo
+* 3 botones switch
+* Sensor de temperatura LM35
+* Sensor de luz LDR
+* 2 Conectores para servos
+* Buzzer
+* Conector para baterías
 
 ## Mas información
 - Si querés saber más podés ingresar a la web [Edukit10](https://edukit.it10coop.com.ar/).
