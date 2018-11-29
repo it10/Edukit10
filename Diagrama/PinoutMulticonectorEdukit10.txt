@@ -16,14 +16,13 @@ cc	| o |  | o | 4		|	4-	Digital/pwm			D10
 7	| o |  | o | 6		|	6-	Digital/pwm			D6
 	 ---    ---		|	
 	 			|	7-	Analógico/i2c SDA		A4
-* VCC(9)			|
-  GND(10)			|
-  +5v(11)			|	8-	Analógico/i2c SCL       	A5
+* VCC(9)			|	
+  GND(10)			|	8-	Analógico/i2c SCL       	A5
   N/A(12)			|
-	 			|	9-	VCC, Entrada Reg        	Vin
-	 			| 
-	 			|	10-	GND				GND
-	 			|
+  +5v(11)			|	9-	VCC, Entrada Reg        	Vin
+	 			|	
+	 			| 	10-	GND				GND
+	 			|	
 	 			|	11-	Salida Reg +5v			5v
-	 			|
+	 			|	
 	 			|	12-	Pin ciego			NA
