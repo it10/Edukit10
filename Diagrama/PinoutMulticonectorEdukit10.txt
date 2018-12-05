@@ -9,7 +9,7 @@ N/A	| o |  | o | 1		|	1-	Digital/pwm		        D11
 	 ---    ---		|
 GND	| o |  | o | 3		|	3-      Analógico, Digital      	A1
 	 ---    ---		|
-cc	| o |  | o | 4		|	4-	Digital/pwm			D10	
+Vcc	| o |  | o | 4		|	4-	Digital/pwm			D10	
 	 ---    ---		|		
 8	| o |  | o | 5		|	5-      Digital/pwm             	D9
 	 --- 	---		|			
