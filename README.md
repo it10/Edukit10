@@ -1,6 +1,6 @@
 # Edukit10
 
-**Edukit10** es una **Plataforma Educativa** que permite abordar de una manera sencilla los fundamentos de programación y robótica 
+**Edukit10** es una **Plataforma Educativa** que permite abordar de una manera sencilla los fundamentos de programación y robótica. 
 Es Arduino compatible, directamente en la placa podes encontrar:
 * Led verde
 * Led Amarillo
