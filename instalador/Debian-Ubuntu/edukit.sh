@@ -65,6 +65,7 @@ ArdublockIT10 () {
 	cd ~/.local/share/ArduinoIT10/ArdublockIT10-master
 	cp -r tools ~/Arduino/
 	echo "Ardublock Instalado"
+	cd ..
 	rm -r ArdublockIT10-master -f
 	rm master.zip
 }
@@ -80,7 +81,8 @@ cd ~/.local/share/
 if [ -d "$DIRECTORY" ];
 	then	# Control will enter here if $DIRECTORY exists.
 		rm -rf $DIRECTORY
-else
+fi
+
 mkdir $DIRECTORY
 cd $DIRECTORY
 arduino_installer
@@ -93,6 +95,6 @@ else
 sudo ln -s /lib/x86_64-linux-gnu/libreadline.so.7 /lib/x86_64-linux-gnu/libreadline.so.6
 fi
 
-fi
+
 
 echo "nos vimos, bye bye, ciao,auf Wiedersehen, 侨, さようなら, Sayōnara, chauchis"
