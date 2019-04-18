@@ -62,7 +62,7 @@ ArdublockIT10 () {
 		then  	# Control will enter here if $DIRECTORY does NOT exists.
 			mkdir ~/Arduino/
 	fi
-	cd ~/.local/share/ArdublockIT10-master
+	cd ~/.local/share/ArduinoIT10/ArdublockIT10-master
 	cp -r tools ~/Arduino/
 	echo "Ardublock Instalado"
 	rm -r ArdublockIT10-master -f

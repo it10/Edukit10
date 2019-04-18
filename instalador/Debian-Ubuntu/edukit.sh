@@ -24,7 +24,6 @@ arduino_installer () {
 			then
 				#do dangerous stuff
 				sudo apt remove $ARD -y
-        echo "removiendo Arduino antiguo ..."
 		else
 		exit
 		fi
@@ -47,10 +46,10 @@ else
       	# 32-bit stuff here
 fi
 	cd arduino-1.6.5-r5
-	echo "Scripts Arduino"
-	#./arduino-linux-setup.sh $user		#group handling
+		#./arduino-linux-setup.sh $user		#group handling
 	sudo usermod -a -G dialout $USER
 	sudo /bin/bash install.sh 			#Actual Installer
+	echo "Parte 1: Instalacion IDE Arduino completa"
 	cd ..
 }
 
@@ -58,15 +57,14 @@ ArdublockIT10 () {
 
 	wget https://github.com/it10/ArdublockIT10/archive/master.zip
 	unzip master.zip
-	cd ~/Arduino
+	cd ~/
 	if [ ! -d "$ARDUINO_DIRECTORY" ];
 		then  	# Control will enter here if $DIRECTORY does NOT exists.
 			mkdir ~/Arduino/
 	fi
-	cd ~/.local/share/ArdublockIT10-master
+	cd ~/.local/share/ArduinoIT10/ArdublockIT10-master
 	cp -r tools ~/Arduino/
 	echo "Ardublock Instalado"
-	cd ..
 	rm -r ArdublockIT10-master -f
 	rm master.zip
 }
@@ -87,7 +85,14 @@ mkdir $DIRECTORY
 cd $DIRECTORY
 arduino_installer
 ArdublockIT10
+FILE=/lib/x86_64-linux-gnu/libreadline.so.6
+if test -f "$FILE";
+	then
+    echo "$FILE exist"
+else
 sudo ln -s /lib/x86_64-linux-gnu/libreadline.so.7 /lib/x86_64-linux-gnu/libreadline.so.6
+fi
+
 fi
 
 echo "nos vimos, bye bye, ciao,auf Wiedersehen, 侨, さようなら, Sayōnara, chauchis"
