@@ -58,7 +58,7 @@ ArdublockIT10 () {
 
 	wget https://github.com/it10/ArdublockIT10/archive/master.zip
 	unzip master.zip
-	cd ~/Arduino
+	cd ~/
 	if [ ! -d "$ARDUINO_DIRECTORY" ];
 		then  	# Control will enter here if $DIRECTORY does NOT exists.
 			mkdir ~/Arduino/
