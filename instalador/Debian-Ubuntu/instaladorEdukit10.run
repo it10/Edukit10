@@ -65,6 +65,7 @@ ArdublockIT10 () {
 	cd ~/.local/share/ArduinoIT10/ArdublockIT10-master
 	cp -r tools ~/Arduino/
 	echo "Ardublock Instalado"
+	cd ..
 	rm -r ArdublockIT10-master -f
 	rm master.zip
 }
