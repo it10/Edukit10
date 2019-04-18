@@ -88,7 +88,7 @@ mkdir $DIRECTORY
 cd $DIRECTORY
 arduino_installer
 ArdublockIT10
-sudo ln -s /usr/lib/libreadline.so.7 /usr/lib/libreadline.so.6 
+sudo ln -s /lib/x86_64-linux-gnu/libreadline.so.7 /lib/x86_64-linux-gnu/libreadline.so.6 
 fi
 
 echo "nos vimos, bye bye, ciao,auf Wiedersehen, 侨, さようなら, Sayōnara, chauchis"
