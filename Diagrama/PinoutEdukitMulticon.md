@@ -21,15 +21,15 @@
 ## Esquema
 
           
-         ---	  ---       |
+	       --- 	---		|			
     N/A	| o |  | o | 1		|	1-	Digital/pwm		        D11
-         ---	  ---    		|
+	       --- 	---		|			
     +5v	| o |  | o | 2		|	2-	Analógico, Digital		A0
-         ---    ---		    |
+	       --- 	---		|			
     GND	| o |  | o | 3		|	3-      Analógico, Digital      	A1
-         ---    ---		    |
+	       --- 	---		|			
     Vcc	| o |  | o | 4		|	4-	Digital/pwm			D10	
-         ---    ---		    |		
+	       --- 	---		|			
      8	| o |  | o | 5		|	5-      Digital/pwm             	D9
 	       --- 	---		|			
      7	| o |  | o | 6		|	6-	Digital/pwm			D6
